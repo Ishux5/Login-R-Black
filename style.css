@@ -1,0 +1,100 @@
+body {
+  width: 100%;
+  min-width: 500px;
+  height: 100vh;
+  min-height: 500px;
+  background-color: rgb(36, 36, 36);
+  margin: 0px;
+  font-family: "Open Sans", sans-serif;
+}
+
+img {
+  width: 130px;
+  height: auto;
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  color: white;
+  letter-spacing: 2px;
+}
+
+/*change transform to 50% .gradient_border height/width!!*/
+.gradient_border {
+  transform: translate(-175px, -205px);
+  position: relative;
+  display: flex;
+  width: 350px;
+  height: 410px;
+  left: 50%;
+  top: 50%;
+  background-image: linear-gradient(to bottom right, lightgreen, green);
+  border-radius: 15px;
+  align-items: center;
+  justify-content: center;
+}
+
+.login {
+  display: flex;
+  flex-direction: column;
+  width: 340px;
+  height: 400px;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(36, 36, 36);
+  border-radius: 10px;
+}
+
+#username,
+#password {
+  width: 50%;
+  height: 26px;
+  padding: 0px 10px;
+  margin: 5px 0px;
+  background-color: rgb(41, 43, 47);
+  color: grey;
+  border-radius: 26px;
+  border-color: rgb(30, 30, 30);
+  border-style: solid;
+  border-width: 3px;
+}
+
+#username:hover,
+#password:hover {
+  width: 60%;
+  outline: none;
+}
+
+#username:focus,
+#password:focus {
+  width: 60%;
+  padding: 0px 10px;
+  outline: none;
+}
+
+#button {
+  width: 20%;
+  height: 26px;
+  margin: 5px 0px;
+  background-color: rgb(41, 43, 47);
+  color: grey;
+  border-radius: 26px;
+  border-color: rgb(30, 30, 30);
+  border-style: solid;
+  border-width: 3px;
+}
+
+#button:hover {
+  width: 30%;
+  cursor: pointer;
+}
+
+p {
+  position: absolute;
+  bottom: 0vh;
+  margin: 0px;
+  font-size: 10px;
+}
